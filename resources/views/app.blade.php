@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>TaskMan</title>
     <!-- Styles -->
-    <link href="{{ route(asset('css/app.css')) }}" rel="stylesheet" >
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" >
 </head>
 <body>
     <div id="app"></div>
