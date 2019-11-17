@@ -1,1 +1,1 @@
-web: vendor/bin/laravel_react public/
+web: vendor/bin/heroku-php-apache2 public/
